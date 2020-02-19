@@ -1,0 +1,10 @@
+<!DOCTYPE html> Navegador identifique versao do HTML5
+<html> documento reconhecido por navegadores
+<head> Informaçoes sobre a pagina
+<title> Titulo Da pagina
+<header> Cabeçalho da pagina HTML
+<body> Corpo da pagina onde sera apresentada as Informaçoes 
+<h1> titulo principal e um letra maior para o menor <h6> letra menor
+<p> paragrafos
+<strong> Negrito importancia para o texto
+<em> italico
