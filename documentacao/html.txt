@@ -1,5 +1,7 @@
 <!DOCTYPE html> Navegador identifique versao do HTML5
-<html> documento reconhecido por navegadores
+<html> documento reconhecido por navegadores 
+<html lang="pt-br"> Indetificando idioma da pagina
+<meta charset="UTF-8"> Indetificaçao de conjuto de caracteres 
 <head> Informaçoes sobre a pagina
 <title> Titulo Da pagina
 <header> Cabeçalho da pagina HTML
