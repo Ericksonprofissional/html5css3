@@ -13,3 +13,6 @@
 marcador de identificaçao css 'id="identificador"';
 marcador de identificaçao css 'class="identificador"';
 <img src="caminho da imagem"> Carregando uma imagem;
+<ol> Listas ordenadas
+<ul> Listas nao ordenadas
+<li> Conteudo da lista
