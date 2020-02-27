@@ -8,3 +8,5 @@
 <p> paragrafos
 <strong> Negrito importancia para o texto
 <em> italico
+<style></style> css inline
+<link rel="stylesheet" href="caminho"> carregar styilos CSS de outro arquivo.
