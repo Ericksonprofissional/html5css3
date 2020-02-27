@@ -12,3 +12,4 @@
 <link rel="stylesheet" href="caminho"> carregar styilos CSS de outro arquivo.
 marcador de identificaçao css 'id="identificador"';
 marcador de identificaçao css 'class="identificador"';
+<img src="caminho da imagem"> Carregando uma imagem;

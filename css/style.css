@@ -1,7 +1,12 @@
 body {
     background: #cccccc;
-    margin: 0;
-    padding: 5%;
+}
+
+#banner {
+    width: 100%;
+    border: 0px;
+    margin: 0%;
+    padding: 0%;
 }
 
 h1 {

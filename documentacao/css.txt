@@ -4,4 +4,9 @@ style="font-size: ": font-size por padrao tem 16px
 text-align: para realizar o alinhamento do texto na pagina, "center" = centro
 para passar mais de um stylo da pagina no style usar ; ponto e virgula
 # : referencia ao id de estilo de CSS
-. : referencia a classe de estilo CSS 
+. : referencia a classe de estilo CSS
+width: largura do  elemento na pagina
+height: altura do elemento na pagina
+border: "espessura" "textura" "cor": borda do elemento "border: 10px solid #000000;
+padding: "espessura" : espassamento interno. padding: 20px; padding: 20%; padding-top: 20px; espassamento no topo;
+marging: espassamento externo. marging-left; margem da esquerda. marging-rigth. margem direta.
