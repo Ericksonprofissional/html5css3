@@ -1,7 +1,14 @@
+body {
+    background: #cccccc;
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+}
+
 p {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
+em strong {
+    color: red;
 }
