@@ -4,13 +4,14 @@
     margin: 0%;
     padding: 0%;
 }
+
+.titulo-principal {
+    padding-left: 2%;
+}
+
 .principal {
     background: #cccccc;
     padding: 30px;
-}
-
-h1 {
-    text-align: center;
 }
 
 p {
@@ -30,7 +31,7 @@ em strong {
     padding: 20px;
 }
 
-h2 {
+.titulo {
     text-align: center;
 }
 
