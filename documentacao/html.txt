@@ -16,3 +16,4 @@ marcador de identificaçao css 'class="identificador"';
 <ol> Listas ordenadas
 <ul> Listas nao ordenadas
 <li> Conteudo da lista
+<div> criando divisao de Conteudo
