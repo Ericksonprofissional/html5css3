@@ -3,3 +3,5 @@ style: estilo do elemento
 style="font-size: ": font-size por padrao tem 16px
 text-align: para realizar o alinhamento do texto na pagina, "center" = centro
 para passar mais de um stylo da pagina no style usar ; ponto e virgula
+# : referencia ao id de estilo de CSS
+. : referencia a classe de estilo CSS 

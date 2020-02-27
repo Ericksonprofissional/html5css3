@@ -10,3 +10,5 @@
 <em> italico
 <style></style> css inline
 <link rel="stylesheet" href="caminho"> carregar styilos CSS de outro arquivo.
+marcador de identificaçao css 'id="identificador"';
+marcador de identificaçao css 'class="identificador"';
