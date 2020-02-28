@@ -17,3 +17,6 @@ marcador de identificaçao css 'class="identificador"';
 <ul> Listas nao ordenadas
 <li> Conteudo da lista
 <div> criando divisao de Conteudo
+<header> <!--CABEÇALHO--> </header> 
+<main>   <!--Conteudo--> </main>
+<footer> <!--RODA-PE--> </footer>  
