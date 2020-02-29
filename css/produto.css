@@ -1,9 +1,22 @@
 header {
     background: #cccccc;
     width: 100%;
+    padding: 20px 0;
 }
+
+.caixa {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
 #logo {
-    width: 25%;
+    width: 12%;
+}
+nav {
+    position: absolute;
+    top: 50%;
+    right: 2%;
 }
 nav li {
     display: inline;
@@ -14,7 +27,4 @@ nav a {
     color: black;
     font-weight: bolder;
     text-decoration: none;
-}
-nav a:hover {
-    font-size: 125%;
 }
