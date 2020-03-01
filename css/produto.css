@@ -40,9 +40,16 @@ nav a {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 0 1%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 5%;
+}
+
+.produtos li:hover {
+    border: 6px solid #290a91;
+    border-radius: 50%;
 }
 
 .produtos img {
@@ -50,9 +57,10 @@ nav a {
 }
 
 .produtos h2{
-    font-size: 140%;
+    font-size: 17px;
     font-weight: bold;
 }
+
 
 .produto-descricao {
     font-size: 110%;
