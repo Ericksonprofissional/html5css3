@@ -1,0 +1,52 @@
+header {
+    background: #cccccc;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 12%;
+}
+
+nav {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+
+nav li {
+    display: inline;
+    text-transform: uppercase;
+    margin: 0 0 0 1.5%;
+}
+
+nav a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    height: 20%;
+    background: #dddddd;
+}
+
+footer {
+    text-align: center;
+    color: aliceblue;
+    background: url("/img/bg.jpg");
+}
+footer img {
+    width: 12%;
+    font-size: 13px;
+    margin: 20px;
+}
