@@ -40,6 +40,14 @@ main {
     background: #dddddd;
 }
 
+label {
+    margin: 1.5%;
+}
+
+form {
+    display: block;
+}
+
 footer {
     text-align: center;
     color: aliceblue;
