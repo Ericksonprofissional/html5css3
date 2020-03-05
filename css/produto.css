@@ -13,19 +13,29 @@ header {
 #logo {
     width: 12%;
 }
+
 nav {
     position: absolute;
     top: 50%;
-    right: 2%;
+    right: 10%;
 }
+
 nav li {
     display: inline;
     text-transform: uppercase;
     margin: 0 0 0 1.5%;
 }
+
+nav li:hover {    
+    font-size: 101%;
+    transition: 5s;
+    color: #290a91;
+}
+
 nav a {
     color: black;
     font-weight: bolder;
+    font-size: 100%;
     text-decoration: none;
 }
 
@@ -45,22 +55,41 @@ nav a {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 5%;
+    transition: 5s;
 }
 
 .produtos li:hover {
     border: 6px solid #290a91;
     border-radius: 50%;
+    font-size: 90%;
+    transition: 5s;
+}
+
+.produtos li:active {
+    border: 6px solid #129718;
+    border-radius: 50%;
+    font-size: 90%;
+    transition: 3s;
+}
+
+.produto-descricao:active {
+    font-size: 90;
+    transition: 3s;
 }
 
 .produtos img {
     width: 76%;
 }
 
-.produtos h2{
+.produtos img:hover {
+    width: 80%;
+    transition: 2.5s;
+}
+
+.produtos h2 {
     font-size: 17px;
     font-weight: bold;
 }
-
 
 .produto-descricao {
     font-size: 110%;
@@ -70,4 +99,16 @@ nav a {
     font-size: 105%;
     margin-top: 4%;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: #ffffff;
+    background: url("/img/bg.jpg");
+}
+
+footer img {
+    width: 12%;
+    font-size: 13px;
+    margin: 20px;
 }
