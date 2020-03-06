@@ -27,7 +27,30 @@
                 
                 <label for="telef">Telefone</label>
                 <input type="tel" id="telef" name="tel" placeholder="(11) 99999 9999" maxlength="11" minlength="11">
+
+                <label for="hora">Horarios</label>
+                <select id="hora">
+                    <option value="0"></option>
+                    <option value="1">09:00</option>
+                    <option value="2">10:00</option>
+                    <option value="3">13:00</option>
+                    <option value="4">14:00</option>
+                </select>
+
+                <label for="msg-contato">Mensagens de contato</label>
+                <textarea name="msg" id="msg-contato" cols="50" rows="10"></textarea>
                 
+                <div>
+                    <p>Como prefere nosso contato?</p>
+                    <label for="email-radio">Email</label>
+                    <input type="radio" id="email-radio" value="Email" name="contato">
+                    <label for="telefone-radio">Telefone</label>
+                    <input type="radio" id="telefone-radio" value="Telefone" name="contato">
+                    <label for="whatsapp-radio">Whatsapp</label>
+                    <input type="radio" id="whatsapp-radio" value="Whatsapp" name="contato">
+                </div>
+
+                <label><input type="checkbox" value="sim" name="novidades">Gostaria de receber nossas novidades por email?</label>
                 <input type="submit" onclick="enviar()" value="Enviar Formulario">
             </form>
         </main>
