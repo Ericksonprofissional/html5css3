@@ -25,9 +25,9 @@ function agendaHorario(){
     return horario;
 }
 
+
 function enviar(){
     event.preventDefault();
-    var novidades = (form.novidades.value != null ? 'sim' : 'nao');
 
     pessoa = {
         nome: form.nome.value,
@@ -36,14 +36,15 @@ function enviar(){
         horario: agendaHorario(),
         mensagem: form.msg.value,
         tipoContato: form.contato.value,
-        novidades: novidades
+        novidades: form.novidades.checked === true ? novi = 'sim' : novi = 'nao'
     }
 
-    console.log(`nome ${pessoa.nome}
-        email ${pessoa.email}
-        telefone ${pessoa.tel}
-        horario ${pessoa.horario}
-        mensagem ${pessoa.mensagem}
-        tipoContato ${pessoa.tipoContato}
-        novidades ${pessoa.novidades}`);
+    console.log(`
+    nome ${pessoa.nome}
+    email ${pessoa.email}
+    telefone ${pessoa.tel}
+    horario ${pessoa.horario}
+    mensagem ${pessoa.mensagem}
+    tipoContato ${pessoa.tipoContato}
+    novidades ${pessoa.novidades}`);
 }
