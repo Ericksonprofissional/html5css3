@@ -45,16 +45,23 @@ form {
     padding-left: 25%
 }
 
-form label, form p {
+form label {
     font-size: 120%;
     display: block;
 }
+
 
 .input-padrao {
     margin: 1% 0 5% 0;
     display: block;
     padding: 1% 3%;
     width: 50%;
+}
+
+form p {
+    font-size: 120%;
+    display: block;
+    margin: 3% 0 3% 0;
 }
 
 select {

@@ -8,18 +8,23 @@ function agendaHorario(){
     switch (parseInt(horario)){
         case 0:
             horario = '';
+            form.periodo[0].selected = true;
             break;
         case 1:
             horario = '09:00';
+            form.periodo[1].selected = true;
             break;
         case 2:
             horario = '10:00';
+            form.periodo[1].selected = true;
             break;
         case 3:
             horario = '13:00';
+            form.periodo[2].selected = true;
             break;
         case 4:
-            horario = '14:00';
+            horario = '19:00';
+            form.periodo[3].selected = true;
             break;
     }
     return horario;
@@ -36,6 +41,7 @@ function enviar(){
         horario: agendaHorario(),
         mensagem: form.msg.value,
         tipoContato: form.contato.value,
+        periodo: form.periodo.value,
         novidades: form.novidades.checked === true ? novi = 'sim' : novi = 'nao'
     }
 
@@ -46,5 +52,6 @@ function enviar(){
     horario ${pessoa.horario}
     mensagem ${pessoa.mensagem}
     tipoContato ${pessoa.tipoContato}
+    periodo ${pessoa.periodo}
     novidades ${pessoa.novidades}`);
 }
