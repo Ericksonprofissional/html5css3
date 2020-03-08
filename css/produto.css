@@ -39,6 +39,10 @@ nav a {
     text-decoration: none;
 }
 
+main {
+    height: 100%;
+}
+
 .produtos {
     width: 80%;
     margin: 0 auto;

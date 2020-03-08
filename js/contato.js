@@ -32,8 +32,7 @@ function agendaHorario(){
 
 
 function enviar(){
-    event.preventDefault();
-
+   
     pessoa = {
         nome: form.nome.value,
         email: form.email.value,
@@ -54,4 +53,5 @@ function enviar(){
     tipoContato ${pessoa.tipoContato}
     periodo ${pessoa.periodo}
     novidades ${pessoa.novidades}`);
+
 }
