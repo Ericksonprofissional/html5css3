@@ -64,9 +64,33 @@ form legend {
     margin: 3% 0 3% 0;
 }
 
+fieldset label {
+    margin-bottom: 3%;
+}
+
 select {
     display: block;
     margin:1% 0 5%;
+    cursor: pointer;
+}
+
+.enviar {
+    margin-top: 2%;
+    width: 40%;
+    padding: 3% 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2%;
+    font-size: 18px;
+    transition: 5s;
+}
+
+.enviar:hover {
+    background: darkorange;
+    cursor: pointer;
+    width: 45%;
 }
 
 footer {
