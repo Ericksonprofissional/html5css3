@@ -58,7 +58,7 @@ form label {
     width: 50%;
 }
 
-form p {
+form legend {
     font-size: 120%;
     display: block;
     margin: 3% 0 3% 0;
