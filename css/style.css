@@ -1,8 +1,6 @@
-#banner {
-    width: 100%;
-    border: 0px;
-    margin: 0%;
-    padding: 0%;
+body {
+    background: rgb(0, 183, 255);
+    font-family: 'Montserrat', sans-serif;
 }
 
 header {
@@ -18,7 +16,7 @@ header {
 }
 
 #logo {
-    width: 12%;
+    width: 7%;
 }
 
 nav {
@@ -28,9 +26,9 @@ nav {
 }
 
 nav li {
-    display: inline;
     text-transform: uppercase;
     margin: 0 0 0 1.5%;
+    display: inline;
 }
 
 nav li:hover {    
@@ -46,13 +44,15 @@ nav a {
     text-decoration: none;
 }
 
-.principal {
-    background: #cccccc;
-    padding: 30px;
+main {
+    width: 80%;
+    margin: 0 auto;
+    background: #ffffff;
+    padding-bottom: 6%; 
 }
 
-p {
-    text-align: center;
+.banner {
+    width: 100%;
 }
 
 #missao {
@@ -63,16 +63,37 @@ em strong {
     color: red;
 }
 
-.beneficios {
+.beneficios, .principal {
+    margin-top: -1%;
     background: #ffffff;
     padding: 20px;
 }
 
-.titulo {
+.titulo-principal {
     text-align: center;
+    font-size: 2em;
+    margin: 1% 0 2% 0;
 }
 
-ul {
+.utensilios {
+    width: 9%;
+    float: left;
+    margin: 0 2% 2% 0; 
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.lista-beneficios {
     display: inline-block;
     vertical-align: top;
     width: 36.5%;
@@ -84,4 +105,17 @@ ul {
 
 .imagembeneficio {
     width: 50%;
+}
+
+footer {
+    text-align: center;
+    font-size: 7px;
+    color: aliceblue;
+    background: url("/img/bg.jpg");
+}
+
+footer img {
+    width: 7%;
+    font-size: 13px;
+    margin: 3%;
 }

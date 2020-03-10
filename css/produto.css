@@ -1,3 +1,8 @@
+body {
+    background: rgb(0, 183, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background: #cccccc;
     width: 100%;
@@ -11,7 +16,7 @@ header {
 }
 
 #logo {
-    width: 12%;
+    width: 7%;
 }
 
 nav {
@@ -21,9 +26,9 @@ nav {
 }
 
 nav li {
-    display: inline;
     text-transform: uppercase;
     margin: 0 0 0 1.5%;
+    display: inline;
 }
 
 nav li:hover {    
@@ -40,11 +45,14 @@ nav a {
 }
 
 main {
-    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    background: #ffffff;
+    padding-bottom: 91%;
 }
 
 .produtos {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding: 5% 0;
 }
@@ -59,7 +67,7 @@ main {
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 5%;
-    transition: 5s;
+    transition: 4s;
 }
 
 .produtos li:hover {
@@ -86,8 +94,8 @@ main {
 }
 
 .produtos img:hover {
-    width: 80%;
     transition: 2.5s;
+    width: 71%;
 }
 
 .produtos h2 {
@@ -112,7 +120,7 @@ footer {
 }
 
 footer img {
-    width: 12%;
+    width: 7%;
     font-size: 13px;
     margin: 20px;
 }
