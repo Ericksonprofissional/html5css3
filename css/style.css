@@ -89,8 +89,21 @@ em strong {
     font-weight: bold;
 }
 
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    padding: 0 0 2em;
+    text-align: center;
+}
 .principal em {
     font-style: italic;
+}
+
+.mapa-principal {
+    width: 90%;
+    margin: 0 auto;
 }
 
 .lista-beneficios {
