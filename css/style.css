@@ -96,12 +96,22 @@ em strong {
     padding: 0 0 2em;
     text-align: center;
 }
+
 .principal em {
     font-style: italic;
 }
 
 .mapa-principal {
     width: 90%;
+    margin: 0 auto;
+}
+
+.beneficios {
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -113,9 +123,23 @@ em strong {
 }
 .itens {
     font-style: italic;
+    line-height: 1.5em;
 }
 
-.imagembeneficio {
+
+.itens:first-child {
+    color: red;
+}
+
+.itens:nth-child(2n) {
+    font-weight: bold;
+}
+
+.itens:last-child {
+    color: darkviolet;
+}
+
+.imagem-beneficio {
     width: 50%;
 }
 
